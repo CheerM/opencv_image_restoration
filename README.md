@@ -1,5 +1,5 @@
 # opencv_image_restoration
-#图像回复和彩色图片处理
+#图像恢复和彩色图片处理
         运行环境： ubuntu 14.04 opencv 3.0.0
         运行操作： cmake . 
                   make 
