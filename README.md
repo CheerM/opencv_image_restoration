@@ -1,5 +1,9 @@
 # opencv_image_restoration
 #图像回复和彩色图片处理
+        运行环境： ubuntu 14.04 opencv 3.0.0
+        运行操作： cmake . 
+                  make 
+                  ./main
         
         加噪声(高斯噪声、椒盐噪声)//Add Gaussian noise and salt-and-pepper noise to input image
         
