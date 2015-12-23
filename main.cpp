@@ -39,6 +39,7 @@ Mat filter1(Mat &input, double q, int size, bool geometric) {
 						}
 					}
 				}
+				//几何均值
 				if (!geometric) {
 					output.ptr<uchar>(i)[j] =saturate_cast<uchar>(temp1 / temp2);
 					temp1 = 0;
